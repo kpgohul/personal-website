@@ -1,11 +1,15 @@
 {
+  "homepage": "https://kpgohul.github.io/personal-website",
   "name": "personal-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "react",
     "dev": "vite",
     "build": "vite build",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
